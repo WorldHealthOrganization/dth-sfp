@@ -1,0 +1,31 @@
+{
+ "$schema": "as-drawn-bpmn-figure/v1",
+ "figure": {
+  "library": "9789240120747-eng",
+  "label": "Fig. 4",
+  "caption": "Example workflow depicting the process of reporting substandard and falsified medical products",
+  "page": 42,
+  "section": "who-iris/library/9789240120747-eng/sections/sec-024-43-develop-business-processes-and-workflows.md",
+  "crop": "who-iris/library/9789240120747-eng/figures/vfig-p042.png",
+  "region": [97.22, 91.3, 564.61, 441.62],
+  "notes": [
+   "The workflow is transcribed as BPMN 2.0 (figure-data/fig-4-sf-reporting-workflow.bpmn) with diagram coordinates from the PDF vector layer of p. 42, and drawn from that file in the printed style.",
+   "Only what the figure draws: the falsified branch's step 8 has no outgoing flow, as printed. The folio's formal process for this workflow is processes/SF-REP-001.bpmn."
+  ]
+ },
+ "out": "folio/dth-sfp/media/fig-4-sf-reporting-workflow.svg",
+ "bpmn": "figure-data/fig-4-sf-reporting-workflow.bpmn",
+ "width": 934.78,
+ "height": 700.64,
+ "font": "'Noto Sans','Open Sans','Segoe UI',Helvetica,Arial,sans-serif",
+ "style": {
+  "task": { "fill": "#202a53", "text": "#ffffff", "number": "#c9ddf3", "size": 15.46, "lineHeight": 18.54 },
+  "gateway": { "fill": "#f5a91f", "text": "#ffffff", "number": "#fee6c4", "mark": "#ffffff", "size": 18.46, "lineHeight": 18.48 },
+  "event": { "stroke": "#202a53", "strokeWidth": 1.72, "text": "#202a53", "size": 17.18 },
+  "lane": { "fill": "#7bb6e4", "text": "#ffffff", "size": 17.18, "width": 28 },
+  "flow": { "stroke": "#bfbebe", "strokeWidth": 0.86, "labelled": "#ed692d", "arrow": 4.4 }
+ },
+ "concepts": {
+  "health-care-professional": "https://litlfred.github.io/dth-sfp/v0/ns#glossary/dth-sfp/health-care-professional"
+ }
+}

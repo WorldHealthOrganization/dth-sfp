@@ -5,6 +5,7 @@
     "": {
       "name": "dth-sfp",
       "dependencies": {
+        "@xmldom/xmldom": "^0.8.15",
         "zod": "^4.6.5",
       },
     },
