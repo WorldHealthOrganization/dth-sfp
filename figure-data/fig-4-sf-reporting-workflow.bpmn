@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  As-drawn transcription of WHO, Digital transformation handbook for reporting
+  substandard and falsified medical products (2025), Fig. 4 "Example workflow
+  depicting the process of reporting substandard and falsified medical
+  products", PDF p. 42 (who-iris/library/9789240120747-eng/figures/vfig-p042.png).
+
+  Only what the figure draws: its 13 nodes, 13 flows, the lane, the two
+  printed flow labels, and the step number printed on each node
+  (sfp:step; the figure repeats 6, 7 and 8 on its two branches). Nothing the
+  figure does not draw is added: the falsified branch's "Submit report to
+  NMRA" has no outgoing flow, as printed. The formal process the folio models
+  from this figure is processes/SF-REP-001.bpmn.
+
+  Diagram coordinates are output pixels, 2 per PDF point of the figure's
+  region [97.22, 91.3, 564.61, 441.62], taken from the PDF vector layer.
+  Drawn by scripts/figures/as-drawn.ts from figure-data/fig-4-sf-reporting-workflow.json.
+-->
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+                  xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+                  xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
+                  xmlns:sfp="https://litlfred.github.io/dth-sfp/ns/figure#"
+                  id="dth-sfp-fig-4"
+                  targetNamespace="https://litlfred.github.io/dth-sfp/figures/fig-4">
+  <bpmn:process id="fig-4-sf-reporting-workflow" name="Example workflow depicting the process of reporting substandard and falsified medical products" isExecutable="false">
+    <bpmn:laneSet id="fig-4-lanes">
+      <bpmn:lane id="health-care-professional" name="Health care professional">
+        <bpmn:flowNodeRef>start</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>gw-1-select-type-of-report</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>task-2-select-type-of-report</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>task-3-search-and-select-product</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>task-4-capture-batch-and-expiry</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>gw-5-select-type-of-report</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>task-6-indicate-substandard</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>task-7-capture-details</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>task-8-submit-report</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>task-6-indicate-falsified</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>task-7-capture-details-falsified</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>task-8-submit-report-falsified</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>end</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="start" name="START">
+      <bpmn:outgoing>flow-start-gw-1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:exclusiveGateway id="gw-1-select-type-of-report" name="Select type&#10;of report" sfp:step="1">
+      <bpmn:incoming>flow-start-gw-1</bpmn:incoming>
+      <bpmn:outgoing>flow-gw-1-task-2</bpmn:outgoing>
+      <bpmn:outgoing>flow-gw-1-end</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="task-2-select-type-of-report" name="Select type&#10;of report" sfp:step="2">
+      <bpmn:incoming>flow-gw-1-task-2</bpmn:incoming>
+      <bpmn:outgoing>flow-task-2-task-3</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="task-3-search-and-select-product" name="Search for&#10;and select the&#10;correct&#10;product" sfp:step="3">
+      <bpmn:incoming>flow-task-2-task-3</bpmn:incoming>
+      <bpmn:outgoing>flow-task-3-task-4</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="task-4-capture-batch-and-expiry" name="Provide/&#10;capture batch&#10;number and&#10;expiry date" sfp:step="4">
+      <bpmn:incoming>flow-task-3-task-4</bpmn:incoming>
+      <bpmn:outgoing>flow-task-4-gw-5</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="gw-5-select-type-of-report" name="Select type&#10;of report" sfp:step="5">
+      <bpmn:incoming>flow-task-4-gw-5</bpmn:incoming>
+      <bpmn:outgoing>flow-gw-5-substandard</bpmn:outgoing>
+      <bpmn:outgoing>flow-gw-5-falsified</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="task-6-indicate-substandard" name="Indicate that&#10;the product is&#10;suspected to&#10;be&#10;substandard" sfp:step="6">
+      <bpmn:incoming>flow-gw-5-substandard</bpmn:incoming>
+      <bpmn:outgoing>flow-task-6-task-7</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="task-7-capture-details" name="Capture&#10;details&#10;of adverse&#10;effects&#10;or lack&#10;of efficacy&#10;or defect" sfp:step="7">
+      <bpmn:incoming>flow-task-6-task-7</bpmn:incoming>
+      <bpmn:outgoing>flow-task-7-task-8</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="task-8-submit-report" name="Submit&#10;report to&#10;NMRA" sfp:step="8">
+      <bpmn:incoming>flow-task-7-task-8</bpmn:incoming>
+      <bpmn:outgoing>flow-task-8-end</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="task-6-indicate-falsified" name="Indicate that&#10;the product is&#10;suspected to&#10;be&#10;falsified" sfp:step="6">
+      <bpmn:incoming>flow-gw-5-falsified</bpmn:incoming>
+      <bpmn:outgoing>flow-task-6f-task-7f</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="task-7-capture-details-falsified" name="Capture&#10;details&#10;of adverse&#10;effects&#10;or lack&#10;of efficacy&#10;or defect" sfp:step="7">
+      <bpmn:incoming>flow-task-6f-task-7f</bpmn:incoming>
+      <bpmn:outgoing>flow-task-7f-task-8f</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="task-8-submit-report-falsified" name="Submit&#10;report to&#10;NMRA" sfp:step="8">
+      <bpmn:incoming>flow-task-7f-task-8f</bpmn:incoming>
+    </bpmn:task>
+    <bpmn:endEvent id="end">
+      <bpmn:incoming>flow-task-8-end</bpmn:incoming>
+      <bpmn:incoming>flow-gw-1-end</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="flow-start-gw-1" sourceRef="start" targetRef="gw-1-select-type-of-report"/>
+    <bpmn:sequenceFlow id="flow-gw-1-task-2" sourceRef="gw-1-select-type-of-report" targetRef="task-2-select-type-of-report"/>
+    <bpmn:sequenceFlow id="flow-gw-1-end" sourceRef="gw-1-select-type-of-report" targetRef="end"/>
+    <bpmn:sequenceFlow id="flow-task-2-task-3" sourceRef="task-2-select-type-of-report" targetRef="task-3-search-and-select-product"/>
+    <bpmn:sequenceFlow id="flow-task-3-task-4" sourceRef="task-3-search-and-select-product" targetRef="task-4-capture-batch-and-expiry"/>
+    <bpmn:sequenceFlow id="flow-task-4-gw-5" sourceRef="task-4-capture-batch-and-expiry" targetRef="gw-5-select-type-of-report"/>
+    <bpmn:sequenceFlow id="flow-gw-5-substandard" name="Substandard" sourceRef="gw-5-select-type-of-report" targetRef="task-6-indicate-substandard"/>
+    <bpmn:sequenceFlow id="flow-gw-5-falsified" name="Falsified" sourceRef="gw-5-select-type-of-report" targetRef="task-6-indicate-falsified"/>
+    <bpmn:sequenceFlow id="flow-task-6-task-7" sourceRef="task-6-indicate-substandard" targetRef="task-7-capture-details"/>
+    <bpmn:sequenceFlow id="flow-task-7-task-8" sourceRef="task-7-capture-details" targetRef="task-8-submit-report"/>
+    <bpmn:sequenceFlow id="flow-task-8-end" sourceRef="task-8-submit-report" targetRef="end"/>
+    <bpmn:sequenceFlow id="flow-task-6f-task-7f" sourceRef="task-6-indicate-falsified" targetRef="task-7-capture-details-falsified"/>
+    <bpmn:sequenceFlow id="flow-task-7f-task-8f" sourceRef="task-7-capture-details-falsified" targetRef="task-8-submit-report-falsified"/>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="fig-4-diagram" name="Fig. 4 as drawn">
+    <bpmndi:BPMNPlane id="fig-4-plane" bpmnElement="fig-4-sf-reporting-workflow">
+      <bpmndi:BPMNShape id="health-care-professional_di" bpmnElement="health-care-professional" isHorizontal="true">
+        <dc:Bounds x="0" y="2.8" width="934.8" height="698"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="start_di" bpmnElement="start">
+        <dc:Bounds x="32.1" y="55.38" width="57.56" height="57.56"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="gw-1_di" bpmnElement="gw-1-select-type-of-report">
+        <dc:Bounds x="121" y="0" width="110.6" height="170"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task-2_di" bpmnElement="task-2-select-type-of-report">
+        <dc:Bounds x="247" y="0" width="114.4" height="145.6"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task-3_di" bpmnElement="task-3-search-and-select-product">
+        <dc:Bounds x="380.4" y="0" width="114.4" height="145.6"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task-4_di" bpmnElement="task-4-capture-batch-and-expiry">
+        <dc:Bounds x="513.6" y="0" width="114.4" height="145.6"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task-7_di" bpmnElement="task-7-capture-details">
+        <dc:Bounds x="647" y="0" width="114.4" height="145.6"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task-8_di" bpmnElement="task-8-submit-report">
+        <dc:Bounds x="780.2" y="0" width="114.4" height="145.6"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="gw-5_di" bpmnElement="gw-5-select-type-of-report">
+        <dc:Bounds x="515.4" y="257.6" width="110.6" height="170"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task-6s_di" bpmnElement="task-6-indicate-substandard">
+        <dc:Bounds x="734.4" y="270.4" width="114.4" height="133"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task-6f_di" bpmnElement="task-6-indicate-falsified">
+        <dc:Bounds x="513.6" y="537.2" width="114.4" height="147"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task-7f_di" bpmnElement="task-7-capture-details-falsified">
+        <dc:Bounds x="647" y="537.2" width="114.4" height="147"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="task-8f_di" bpmnElement="task-8-submit-report-falsified">
+        <dc:Bounds x="780.2" y="537.2" width="114.4" height="147"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="end_di" bpmnElement="end">
+        <dc:Bounds x="877.2" y="317.82" width="57.56" height="57.56"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="flow-start-gw-1_di" bpmnElement="flow-start-gw-1">
+        <di:waypoint x="89.66" y="85"/>
+        <di:waypoint x="120" y="85"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow-gw-1-task-2_di" bpmnElement="flow-gw-1-task-2">
+        <di:waypoint x="221.2" y="85"/>
+        <di:waypoint x="246.2" y="85"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow-gw-1-end_di" bpmnElement="flow-gw-1-end">
+        <di:waypoint x="176.4" y="170"/>
+        <di:waypoint x="176.4" y="695.3"/>
+        <di:waypoint x="906" y="695.3"/>
+        <di:waypoint x="906" y="376.4"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow-task-2-task-3_di" bpmnElement="flow-task-2-task-3">
+        <di:waypoint x="361.4" y="85"/>
+        <di:waypoint x="379.4" y="85"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow-task-3-task-4_di" bpmnElement="flow-task-3-task-4">
+        <di:waypoint x="494.8" y="85"/>
+        <di:waypoint x="512.8" y="85"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow-task-4-gw-5_di" bpmnElement="flow-task-4-gw-5">
+        <di:waypoint x="570.8" y="145.6"/>
+        <di:waypoint x="570.8" y="256.6"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow-gw-5-substandard_di" bpmnElement="flow-gw-5-substandard">
+        <di:waypoint x="626" y="342.6"/>
+        <di:waypoint x="733.4" y="342.6"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="630.64" y="314.16" width="92.5" height="15.46"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow-gw-5-falsified_di" bpmnElement="flow-gw-5-falsified">
+        <di:waypoint x="570.8" y="427.6"/>
+        <di:waypoint x="570.8" y="536.2"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="585.98" y="504.76" width="66.22" height="17.18"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow-task-6-task-7_di" bpmnElement="flow-task-6-task-7">
+        <di:waypoint x="744.8" y="270.4"/>
+        <di:waypoint x="744.8" y="146.6"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow-task-7-task-8_di" bpmnElement="flow-task-7-task-8">
+        <di:waypoint x="761.4" y="85"/>
+        <di:waypoint x="779.2" y="85"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow-task-8-end_di" bpmnElement="flow-task-8-end">
+        <di:waypoint x="894.6" y="76.9"/>
+        <di:waypoint x="906" y="76.9"/>
+        <di:waypoint x="906" y="316.8"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow-task-6f-task-7f_di" bpmnElement="flow-task-6f-task-7f">
+        <di:waypoint x="628" y="597.8"/>
+        <di:waypoint x="646" y="597.8"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="flow-task-7f-task-8f_di" bpmnElement="flow-task-7f-task-8f">
+        <di:waypoint x="761.4" y="597.8"/>
+        <di:waypoint x="779.2" y="597.8"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

@@ -1,0 +1,286 @@
+{
+  "$id": "https://litlfred.github.io/dth-sfp/schemas/as-drawn-bpmn-figure.v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "const": "as-drawn-bpmn-figure/v1"
+    },
+    "figure": {
+      "type": "object",
+      "properties": {
+        "library": {
+          "type": "string",
+          "pattern": "^\\d{13}-[a-z]{3}$"
+        },
+        "label": {
+          "type": "string",
+          "pattern": "^Fig\\. \\d+$"
+        },
+        "caption": {
+          "type": "string",
+          "minLength": 1
+        },
+        "page": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "maximum": 9007199254740991
+        },
+        "section": {
+          "type": "string"
+        },
+        "crop": {
+          "type": "string"
+        },
+        "region": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            }
+          ],
+          "items": false,
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "credit": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "library",
+        "label",
+        "caption",
+        "page",
+        "section",
+        "crop",
+        "region"
+      ],
+      "additionalProperties": false
+    },
+    "out": {
+      "type": "string"
+    },
+    "bpmn": {
+      "type": "string"
+    },
+    "width": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "height": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "font": {
+      "type": "string",
+      "minLength": 1
+    },
+    "style": {
+      "type": "object",
+      "properties": {
+        "task": {
+          "type": "object",
+          "properties": {
+            "fill": {
+              "type": "string",
+              "pattern": "^(#[0-9a-fA-F]{6}|none|[a-z][a-zA-Z0-9-]*)$"
+            },
+            "text": {
+              "type": "string",
+              "pattern": "^(#[0-9a-fA-F]{6}|none|[a-z][a-zA-Z0-9-]*)$"
+            },
+            "number": {
+              "type": "string",
+              "pattern": "^(#[0-9a-fA-F]{6}|none|[a-z][a-zA-Z0-9-]*)$"
+            },
+            "size": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "lineHeight": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          },
+          "required": [
+            "fill",
+            "text",
+            "number",
+            "size",
+            "lineHeight"
+          ],
+          "additionalProperties": false
+        },
+        "gateway": {
+          "type": "object",
+          "properties": {
+            "fill": {
+              "type": "string",
+              "pattern": "^(#[0-9a-fA-F]{6}|none|[a-z][a-zA-Z0-9-]*)$"
+            },
+            "text": {
+              "type": "string",
+              "pattern": "^(#[0-9a-fA-F]{6}|none|[a-z][a-zA-Z0-9-]*)$"
+            },
+            "number": {
+              "type": "string",
+              "pattern": "^(#[0-9a-fA-F]{6}|none|[a-z][a-zA-Z0-9-]*)$"
+            },
+            "mark": {
+              "type": "string",
+              "pattern": "^(#[0-9a-fA-F]{6}|none|[a-z][a-zA-Z0-9-]*)$"
+            },
+            "size": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "lineHeight": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          },
+          "required": [
+            "fill",
+            "text",
+            "number",
+            "mark",
+            "size",
+            "lineHeight"
+          ],
+          "additionalProperties": false
+        },
+        "event": {
+          "type": "object",
+          "properties": {
+            "stroke": {
+              "type": "string",
+              "pattern": "^(#[0-9a-fA-F]{6}|none|[a-z][a-zA-Z0-9-]*)$"
+            },
+            "strokeWidth": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "text": {
+              "type": "string",
+              "pattern": "^(#[0-9a-fA-F]{6}|none|[a-z][a-zA-Z0-9-]*)$"
+            },
+            "size": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          },
+          "required": [
+            "stroke",
+            "strokeWidth",
+            "text",
+            "size"
+          ],
+          "additionalProperties": false
+        },
+        "lane": {
+          "type": "object",
+          "properties": {
+            "fill": {
+              "type": "string",
+              "pattern": "^(#[0-9a-fA-F]{6}|none|[a-z][a-zA-Z0-9-]*)$"
+            },
+            "text": {
+              "type": "string",
+              "pattern": "^(#[0-9a-fA-F]{6}|none|[a-z][a-zA-Z0-9-]*)$"
+            },
+            "size": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "width": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          },
+          "required": [
+            "fill",
+            "text",
+            "size",
+            "width"
+          ],
+          "additionalProperties": false
+        },
+        "flow": {
+          "type": "object",
+          "properties": {
+            "stroke": {
+              "type": "string",
+              "pattern": "^(#[0-9a-fA-F]{6}|none|[a-z][a-zA-Z0-9-]*)$"
+            },
+            "strokeWidth": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "labelled": {
+              "type": "string",
+              "pattern": "^(#[0-9a-fA-F]{6}|none|[a-z][a-zA-Z0-9-]*)$"
+            },
+            "arrow": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          },
+          "required": [
+            "stroke",
+            "strokeWidth",
+            "labelled",
+            "arrow"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "task",
+        "gateway",
+        "event",
+        "lane",
+        "flow"
+      ],
+      "additionalProperties": false
+    },
+    "concepts": {
+      "default": {},
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "format": "uri"
+      }
+    }
+  },
+  "required": [
+    "$schema",
+    "figure",
+    "out",
+    "bpmn",
+    "width",
+    "height",
+    "font",
+    "style"
+  ],
+  "additionalProperties": false
+}

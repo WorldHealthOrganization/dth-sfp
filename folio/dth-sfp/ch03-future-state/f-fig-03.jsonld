@@ -13,15 +13,31 @@
   ],
   "label": "fig:fig-03",
   "kind": "figure",
-  "title": "Fig. 3. Links to the enterprise architecture / DIIG national digital health architecture (p. 22 / PDF p. 34)",
+  "title": "Fig. 3. DIIG digital health enterprise architecture framework (p. 22 / PDF p. 34)",
   "uses": [
     "papers/dth-sfp/blocks/prose-sec-020"
   ],
   "text": "f-fig-03.md",
   "meta": {
-    "source": "who-iris/library/9789240120747-eng/media/figures/vfig-p034.png",
+    "source": {
+      "library": "9789240120747-eng",
+      "file": "who-iris/library/9789240120747-eng/figures/vfig-p034.png",
+      "page": 34,
+      "section": "who-iris/library/9789240120747-eng/sections/sec-020-32-link-to-the-enterprise-architecture.md",
+      "method": "generated",
+      "citation": "WHO. Digital transformation handbook for reporting substandard and falsified medical products. 2025. Fig. 3",
+      "issue": "litlfred/dth-sfp#11",
+      "generated": {
+        "data": "figure-data/fig-3-diig-enterprise-architecture.json",
+        "schema": "figure-data/schemas/as-drawn-figure.v1.schema.json",
+        "generator": "scripts/figures/as-drawn.ts",
+        "tool": "figures:svg",
+        "output": "fig-3-diig-enterprise-architecture.svg",
+        "transcribedFrom": "who-iris/uploads/9789240120747-eng/9789240120747-eng.pdf, page 34, vector layer, region [88.44, 89.01, 568.75, 667.61]"
+      }
+    },
     "pdfPage": 34,
-    "figureFile": "media/vfig-p034.png",
+    "figureFile": "media/fig-3-diig-enterprise-architecture.svg",
     "glossary": [
       {
         "iri": "https://litlfred.github.io/dth-sfp/v0/ns#glossary/dth-sfp/sf-report",

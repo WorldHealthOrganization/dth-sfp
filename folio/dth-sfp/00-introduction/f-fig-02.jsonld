@@ -23,20 +23,17 @@
       "library": "9789240120747-eng",
       "file": "who-iris/library/9789240120747-eng/figures/vfig-p017.png",
       "page": 17,
+      "section": "who-iris/library/9789240120747-eng/sections/sec-006-how-to-use-this-handbook.md",
       "method": "generated",
       "citation": "WHO. Digital transformation handbook for reporting substandard and falsified medical products. 2025. Fig. 2, adapted from WHO SMART Guidelines (Mehl et al., 2021)",
-      "issue": "litlfred/dth-sfp#1",
+      "issue": "litlfred/dth-sfp#11",
       "generated": {
-        "repo": "https://github.com/litlfred/who-iris",
-        "commit": "3ecd60367222d7cc8eb0960061bcc06eb7a985dd",
-        "data": "https://github.com/litlfred/who-iris/blob/3ecd60367222d7cc8eb0960061bcc06eb7a985dd/library/9789240116191-eng/figure-data/fig-5-smart-guidelines-approach.json",
-        "generator": "https://github.com/litlfred/folio-assistant-core/blob/aeef4ea569c25cff8649d7365e69554eadab6027/scripts/smart-approach-svg.ts",
-        "tool": "smart-approach-svg",
-        "pr": [
-          "https://github.com/litlfred/who-iris/pull/149",
-          "https://github.com/litlfred/folio-assistant-core/pull/405"
-        ],
-        "output": "fig-2-smart-guidelines-approach.svg"
+        "data": "figure-data/fig-2-smart-guidelines-approach.json",
+        "schema": "figure-data/schemas/as-drawn-figure.v1.schema.json",
+        "generator": "scripts/figures/as-drawn.ts",
+        "tool": "figures:svg",
+        "output": "fig-2-smart-guidelines-approach.svg",
+        "transcribedFrom": "who-iris/uploads/9789240120747-eng/9789240120747-eng.pdf, page 17, vector layer, region [98.74, 387.09, 559.56, 740.29]"
       }
     },
     "pdfPage": 17,

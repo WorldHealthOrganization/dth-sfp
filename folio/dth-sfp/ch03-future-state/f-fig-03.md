@@ -1,3 +1,3 @@
-![Fig. 3. Links to the enterprise architecture / DIIG national digital health architecture (p. 22 / PDF p. 34)](../media/vfig-p034.png)
+![Fig. 3. DIIG digital health enterprise architecture framework (p. 22 / PDF p. 34)](media/fig-3-diig-enterprise-architecture.svg)
 
-*Source: `who-iris/library/9789240120747-eng/media/figures/vfig-p034.png` (PDF page 34). Mapped to `dpi-h-ra` ArchiMate view `DHSC Architecture Framework (DTH SC Fig. 14)` (`id-92267636cc42566ca5d2cff0e81be8c9`).*
+*Source: WHO, Digital transformation handbook for reporting substandard and falsified medical products, 2025, Fig. 3 (L1 section `who-iris/library/9789240120747-eng/sections/sec-020-32-link-to-the-enterprise-architecture.md`; PDF crop `who-iris/library/9789240120747-eng/figures/vfig-p034.png`, PDF page 34). Redrawn as SVG by `scripts/figures/as-drawn.ts` from `figure-data/fig-3-diig-enterprise-architecture.json`, transcribed from the PDF's vector layer with the printed layout, colours and wording. Mapped to `dpi-h-ra` ArchiMate view `DHSC Architecture Framework (DTH SC Fig. 14)` (`id-92267636cc42566ca5d2cff0e81be8c9`).*

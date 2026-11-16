@@ -1,6 +1,6 @@
-![Fig. 4. Workflow for reporting substandard and falsified medical products (L1 source diagram, p. 30 / PDF p. 42)](../media/vfig-p042.png)
+![Fig. 4. Example workflow depicting the process of reporting substandard and falsified medical products (p. 30 / PDF p. 42)](media/fig-4-sf-reporting-workflow.svg)
 
-*Source: `who-iris/library/9789240120747-eng/media/figures/vfig-p042.png` (PDF page 42). Mapped to `dpi-h-ra` ArchiMate view `Track and Trace through DHSC Components (DTH SC Fig. 24)` (`id-bea56e01c8345fbc803dee47a17ccfd3`).*
+*Source: WHO, Digital transformation handbook for reporting substandard and falsified medical products, 2025, Fig. 4 (L1 section `who-iris/library/9789240120747-eng/sections/sec-024-43-develop-business-processes-and-workflows.md`; PDF crop `who-iris/library/9789240120747-eng/figures/vfig-p042.png`, PDF page 42). Drawn by `scripts/figures/as-drawn.ts` from the as-drawn BPMN 2.0 transcription `figure-data/fig-4-sf-reporting-workflow.bpmn`, transcribed from the PDF's vector layer with the printed layout, colours and wording. Mapped to `dpi-h-ra` ArchiMate view `Track and Trace through DHSC Components (DTH SC Fig. 24)` (`id-bea56e01c8345fbc803dee47a17ccfd3`).*
 
 > [!WARNING]
 > **Source Figure Review Findings (`litlfred/dth-sfp#1` §3):**

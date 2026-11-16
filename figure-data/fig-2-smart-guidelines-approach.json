@@ -1,0 +1,1381 @@
+{
+ "$schema": "as-drawn-figure/v1",
+ "figure": {
+  "library": "9789240120747-eng",
+  "label": "Fig. 2",
+  "caption": "WHO’s SMART Guidelines approach",
+  "page": 17,
+  "section": "who-iris/library/9789240120747-eng/sections/sec-006-how-to-use-this-handbook.md",
+  "crop": "who-iris/library/9789240120747-eng/figures/vfig-p017.png",
+  "region": [
+   98.74,
+   387.09,
+   559.56,
+   740.29
+  ],
+  "credit": "Source: WHO SMART guidelines: optimising country-level use of guideline recommendations in the digital age (Mehl et al., 2021) (18).",
+  "notes": [
+   "This handbook prints its own version of the chart (navy knowledge cards, \"Localization\", \"optimized\"), which differs from the version in the product catalogue handbook (9789240116191-eng Fig. 5). This file transcribes the version printed here.",
+   "Transcribed from the PDF vector layer of p. 17 (shapes, colours, text runs and baselines), then grouped by role. Wording as printed, including \"to achieve prioritize outcomes\"."
+  ]
+ },
+ "out": "folio/dth-sfp/media/fig-2-smart-guidelines-approach.svg",
+ "width": 460.82,
+ "height": 353.2,
+ "scale": 2,
+ "font": "'Noto Sans','Open Sans','Segoe UI',Helvetica,Arial,sans-serif",
+ "palette": {
+  "blue": "#1699d6",
+  "navy": "#202a53",
+  "knowledge-panel": "#c9ddf3",
+  "country-panel": "#ccd1e8",
+  "country-card": "#808cc5",
+  "localization": "#2f4495",
+  "impact": "#a12c87",
+  "loop": "#80ba27",
+  "white": "#ffffff"
+ },
+ "symbols": {},
+ "elements": [
+  {
+   "kind": "group",
+   "id": "knowledge",
+   "role": "row",
+   "label": "Knowledge layers and associated products",
+   "children": [
+    {
+     "kind": "rect",
+     "x": 38.91,
+     "y": 0.0,
+     "w": 421.91,
+     "h": 187.9,
+     "fill": "knowledge-panel"
+    },
+    {
+     "kind": "line",
+     "points": [
+      [
+       248.14,
+       20.79
+      ],
+      [
+       248.14,
+       37.34
+      ]
+     ],
+     "stroke": "blue",
+     "strokeWidth": 0.54
+    },
+    {
+     "kind": "group",
+     "id": "l3-machine-readable",
+     "role": "layer",
+     "label": "L3",
+     "children": [
+      {
+       "kind": "path",
+       "d": "M245.92 35.54 L246.31 35.17 L248.13 37.13 L249.96 35.17 L250.35 35.54 L248.13 37.93 Z",
+       "fill": "blue"
+      },
+      {
+       "kind": "rect",
+       "x": 212.03,
+       "y": 51.22,
+       "w": 72.22,
+       "h": 130.08,
+       "fill": "navy"
+      },
+      {
+       "kind": "text",
+       "x": 244.0,
+       "y": 49.96,
+       "lines": [
+        "L3"
+       ],
+       "size": 8.68,
+       "weight": "bold",
+       "condensed": true,
+       "fill": "blue",
+       "widths": [
+        8.28
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 217.03,
+       "y": 62.38,
+       "lines": [
+        "Machine",
+        "readable"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.6,
+       "weight": "bold",
+       "fill": "white",
+       "widths": [
+        32.43,
+        33.37
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 217.03,
+       "y": 77.57,
+       "lines": [
+        "Structured,",
+        "software-neutral,",
+        "specifications,",
+        "code,",
+        "terminology and",
+        "interoperability",
+        "standards"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.59,
+       "fill": "white",
+       "widths": [
+        39.79,
+        61.17,
+        50.33,
+        19.23,
+        59.2,
+        54.61,
+        35.55
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 214.01,
+       "y": 164.14,
+       "lines": [
+        "Machine-readable",
+        "recommendations"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.59,
+       "weight": "bold",
+       "fill": "white",
+       "widths": [
+        68.25,
+        69.25
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "points": [
+      [
+       81.77,
+       20.79
+      ],
+      [
+       81.77,
+       37.34
+      ]
+     ],
+     "stroke": "blue",
+     "strokeWidth": 0.54
+    },
+    {
+     "kind": "group",
+     "id": "l1-narrative",
+     "role": "layer",
+     "label": "L1",
+     "children": [
+      {
+       "kind": "path",
+       "d": "M79.55 35.54 L79.95 35.17 L81.77 37.13 L83.59 35.17 L83.99 35.54 L81.77 37.93 Z",
+       "fill": "blue"
+      },
+      {
+       "kind": "rect",
+       "x": 44.82,
+       "y": 50.38,
+       "w": 72.22,
+       "h": 130.08,
+       "fill": "navy"
+      },
+      {
+       "kind": "text",
+       "x": 76.79,
+       "y": 49.6,
+       "lines": [
+        "L1"
+       ],
+       "size": 8.68,
+       "weight": "bold",
+       "condensed": true,
+       "fill": "blue",
+       "widths": [
+        8.28
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 48.54,
+       "y": 62.38,
+       "lines": [
+        "Narrative"
+       ],
+       "size": 7.59,
+       "weight": "bold",
+       "fill": "white",
+       "widths": [
+        36.51
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 48.54,
+       "y": 69.98,
+       "lines": [
+        "Guideline",
+        "and data",
+        "recommendations:"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.59,
+       "fill": "white",
+       "widths": [
+        34.02,
+        31.53,
+        67.27
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 62.43,
+       "y": 165.23,
+       "lines": [
+        "Enhanced",
+        "guidelines"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.6,
+       "weight": "bold",
+       "fill": "white",
+       "widths": [
+        37.0,
+        39.29
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "points": [
+      [
+       164.95,
+       20.79
+      ],
+      [
+       164.95,
+       37.34
+      ]
+     ],
+     "stroke": "blue",
+     "strokeWidth": 0.54
+    },
+    {
+     "kind": "group",
+     "id": "l2-operational",
+     "role": "layer",
+     "label": "L2",
+     "children": [
+      {
+       "kind": "path",
+       "d": "M162.74 35.54 L163.13 35.17 L164.95 37.13 L166.78 35.17 L167.17 35.54 L164.95 37.93 Z",
+       "fill": "blue"
+      },
+      {
+       "kind": "rect",
+       "x": 128.84,
+       "y": 51.22,
+       "w": 72.22,
+       "h": 130.08,
+       "fill": "navy"
+      },
+      {
+       "kind": "text",
+       "x": 160.82,
+       "y": 49.96,
+       "lines": [
+        "L2"
+       ],
+       "size": 8.68,
+       "weight": "bold",
+       "condensed": true,
+       "fill": "blue",
+       "widths": [
+        8.28
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 134.69,
+       "y": 63.22,
+       "lines": [
+        "Operational"
+       ],
+       "size": 7.59,
+       "weight": "bold",
+       "fill": "white",
+       "widths": [
+        45.42
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 134.69,
+       "y": 70.82,
+       "lines": [
+        "Semi-structured",
+        "documentation",
+        "of operational",
+        "and functional",
+        "requirements:"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.59,
+       "fill": "white",
+       "widths": [
+        57.18,
+        54.67,
+        50.18,
+        51.45,
+        50.34
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 164.95,
+       "y": 164.14,
+       "lines": [
+        "Digital",
+        "adaptation kits"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.59,
+       "weight": "bold",
+       "fill": "white",
+       "widths": [
+        25.26,
+        58.04
+       ],
+       "anchor": "middle"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "points": [
+      [
+       331.32,
+       20.79
+      ],
+      [
+       331.32,
+       37.34
+      ]
+     ],
+     "stroke": "blue",
+     "strokeWidth": 0.54
+    },
+    {
+     "kind": "group",
+     "id": "l4-executable",
+     "role": "layer",
+     "label": "L4",
+     "children": [
+      {
+       "kind": "path",
+       "d": "M329.1 35.54 L329.5 35.17 L331.32 37.13 L333.14 35.17 L333.53 35.54 L331.32 37.93 Z",
+       "fill": "blue"
+      },
+      {
+       "kind": "rect",
+       "x": 295.21,
+       "y": 51.22,
+       "w": 72.22,
+       "h": 130.08,
+       "fill": "navy"
+      },
+      {
+       "kind": "text",
+       "x": 327.19,
+       "y": 49.96,
+       "lines": [
+        "L4"
+       ],
+       "size": 8.68,
+       "weight": "bold",
+       "condensed": true,
+       "fill": "blue",
+       "widths": [
+        8.27
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 301.05,
+       "y": 63.23,
+       "lines": [
+        "Executable"
+       ],
+       "size": 7.59,
+       "weight": "bold",
+       "fill": "white",
+       "widths": [
+        41.37
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 301.05,
+       "y": 70.82,
+       "lines": [
+        "Software that is",
+        "able to execute",
+        "static algorithms",
+        "and",
+        "interoperable",
+        "digital",
+        "components",
+        "and deliver",
+        "operational",
+        "and functional",
+        "requirements:"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.59,
+       "fill": "white",
+       "widths": [
+        55.6,
+        54.1,
+        59.71,
+        13.63,
+        48.37,
+        22.22,
+        44.66,
+        39.75,
+        41.0,
+        51.45,
+        50.35
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 331.31,
+       "y": 164.14,
+       "lines": [
+        "Reference",
+        "software"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.59,
+       "weight": "bold",
+       "fill": "white",
+       "widths": [
+        38.09,
+        33.58
+       ],
+       "anchor": "middle"
+      }
+     ]
+    },
+    {
+     "kind": "line",
+     "points": [
+      [
+       414.5,
+       20.79
+      ],
+      [
+       414.5,
+       37.34
+      ]
+     ],
+     "stroke": "blue",
+     "strokeWidth": 0.54
+    },
+    {
+     "kind": "group",
+     "id": "l5-dynamic",
+     "role": "layer",
+     "label": "L5",
+     "children": [
+      {
+       "kind": "path",
+       "d": "M412.28 35.54 L412.68 35.17 L414.5 37.13 L416.32 35.17 L416.72 35.54 L414.5 37.93 Z",
+       "fill": "blue"
+      },
+      {
+       "kind": "rect",
+       "x": 378.39,
+       "y": 51.22,
+       "w": 72.22,
+       "h": 130.08,
+       "fill": "navy"
+      },
+      {
+       "kind": "text",
+       "x": 410.37,
+       "y": 49.96,
+       "lines": [
+        "L5"
+       ],
+       "size": 8.68,
+       "weight": "bold",
+       "condensed": true,
+       "fill": "blue",
+       "widths": [
+        8.28
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 384.24,
+       "y": 63.23,
+       "lines": [
+        "Dynamic"
+       ],
+       "size": 7.59,
+       "weight": "bold",
+       "fill": "white",
+       "widths": [
+        33.19
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 384.24,
+       "y": 70.82,
+       "lines": [
+        "Executable",
+        "dynamic",
+        "algorithms that",
+        "are trained and",
+        "optimized with",
+        "advanced",
+        "analytics",
+        "to achieve",
+        "prioritize",
+        "outcomes:"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.59,
+       "fill": "white",
+       "widths": [
+        38.62,
+        30.2,
+        55.16,
+        54.69,
+        52.88,
+        34.34,
+        31.02,
+        36.14,
+        32.0,
+        37.32
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 414.5,
+       "y": 164.14,
+       "lines": [
+        "Precision health",
+        "models"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.59,
+       "weight": "bold",
+       "fill": "white",
+       "widths": [
+        61.19,
+        27.55
+       ],
+       "anchor": "middle"
+      }
+     ]
+    },
+    {
+     "kind": "group",
+     "id": "research-and-evidence-base",
+     "role": "band",
+     "label": "Research and evidence base",
+     "children": [
+      {
+       "kind": "rect",
+       "x": 45.66,
+       "y": 5.49,
+       "w": 404.94,
+       "h": 17.74,
+       "fill": "blue"
+      },
+      {
+       "kind": "text",
+       "x": 176.4,
+       "y": 18.37,
+       "lines": [
+        "Research and evidence base"
+       ],
+       "size": 10.85,
+       "fill": "white",
+       "widths": [
+        143.47
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "group",
+   "id": "loop",
+   "role": "feedback-loop",
+   "label": "Evidence from digital implementations",
+   "children": [
+    {
+     "kind": "path",
+     "d": "M45.66 345.83 L8.87 345.83 L8.87 14.36 L38.32 14.36",
+     "stroke": "blue",
+     "strokeWidth": 0.54,
+     "fill": "none"
+    },
+    {
+     "kind": "path",
+     "d": "M36.53 16.58 L36.16 16.18 L38.11 14.36 L36.16 12.54 L36.53 12.14 L38.91 14.36 Z",
+     "fill": "blue"
+    },
+    {
+     "kind": "rect",
+     "x": 0.0,
+     "y": 88.83,
+     "w": 17.74,
+     "h": 211.44,
+     "fill": "loop"
+    },
+    {
+     "kind": "text",
+     "x": 11.62,
+     "y": 292.4,
+     "size": 10.85,
+     "fill": "white",
+     "rotate": -90,
+     "lines": [
+      "Evidence from digital implementations"
+     ],
+     "widths": [
+      196.74
+     ]
+    },
+    {
+     "kind": "text",
+     "x": 32.83,
+     "y": 187.78,
+     "size": 7.59,
+     "fill": "blue",
+     "rotate": -90,
+     "lines": [
+      "Knowledge layers and associated products"
+     ],
+     "widths": [
+      151.66
+     ]
+    },
+    {
+     "kind": "text",
+     "x": 32.83,
+     "y": 325.15,
+     "size": 7.59,
+     "fill": "country-card",
+     "rotate": -90,
+     "lines": [
+      "Country implementation"
+     ],
+     "widths": [
+      87.54
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "line",
+   "points": [
+    [
+     248.14,
+     183.92
+    ],
+    [
+     248.14,
+     194.55
+    ]
+   ],
+   "stroke": "blue",
+   "strokeWidth": 0.54
+  },
+  {
+   "kind": "line",
+   "points": [
+    [
+     81.77,
+     183.92
+    ],
+    [
+     81.77,
+     194.55
+    ]
+   ],
+   "stroke": "blue",
+   "strokeWidth": 0.54
+  },
+  {
+   "kind": "line",
+   "points": [
+    [
+     164.95,
+     183.92
+    ],
+    [
+     164.95,
+     194.55
+    ]
+   ],
+   "stroke": "blue",
+   "strokeWidth": 0.54
+  },
+  {
+   "kind": "line",
+   "points": [
+    [
+     331.32,
+     183.92
+    ],
+    [
+     331.32,
+     194.55
+    ]
+   ],
+   "stroke": "blue",
+   "strokeWidth": 0.54
+  },
+  {
+   "kind": "line",
+   "points": [
+    [
+     414.5,
+     183.92
+    ],
+    [
+     414.5,
+     194.55
+    ]
+   ],
+   "stroke": "blue",
+   "strokeWidth": 0.54
+  },
+  {
+   "kind": "group",
+   "id": "data-evidence-and-impact",
+   "role": "band",
+   "label": "Data, evidence and impact",
+   "children": [
+    {
+     "kind": "rect",
+     "x": 38.91,
+     "y": 335.95,
+     "w": 421.91,
+     "h": 17.25,
+     "fill": "impact"
+    },
+    {
+     "kind": "text",
+     "x": 180.79,
+     "y": 348.63,
+     "lines": [
+      "Data, evidence and impact"
+     ],
+     "size": 10.85,
+     "fill": "white",
+     "widths": [
+      134.69
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "line",
+   "points": [
+    [
+     248.14,
+     319.05
+    ],
+    [
+     248.14,
+     335.6
+    ]
+   ],
+   "stroke": "blue",
+   "strokeWidth": 0.54
+  },
+  {
+   "kind": "path",
+   "d": "M245.92 333.81 L246.31 333.44 L248.13 335.4 L249.96 333.44 L250.35 333.81 L248.13 336.19 Z",
+   "fill": "blue"
+  },
+  {
+   "kind": "line",
+   "points": [
+    [
+     81.77,
+     319.05
+    ],
+    [
+     81.77,
+     335.6
+    ]
+   ],
+   "stroke": "blue",
+   "strokeWidth": 0.54
+  },
+  {
+   "kind": "path",
+   "d": "M79.55 333.81 L79.95 333.44 L81.77 335.4 L83.59 333.44 L83.99 333.81 L81.77 336.19 Z",
+   "fill": "blue"
+  },
+  {
+   "kind": "line",
+   "points": [
+    [
+     164.95,
+     319.05
+    ],
+    [
+     164.95,
+     335.6
+    ]
+   ],
+   "stroke": "blue",
+   "strokeWidth": 0.54
+  },
+  {
+   "kind": "path",
+   "d": "M162.74 333.81 L163.13 333.44 L164.95 335.4 L166.78 333.44 L167.17 333.81 L164.95 336.19 Z",
+   "fill": "blue"
+  },
+  {
+   "kind": "line",
+   "points": [
+    [
+     331.32,
+     319.05
+    ],
+    [
+     331.32,
+     335.6
+    ]
+   ],
+   "stroke": "blue",
+   "strokeWidth": 0.54
+  },
+  {
+   "kind": "path",
+   "d": "M329.1 333.81 L329.5 333.44 L331.32 335.4 L333.14 333.44 L333.53 333.81 L331.32 336.19 Z",
+   "fill": "blue"
+  },
+  {
+   "kind": "line",
+   "points": [
+    [
+     414.5,
+     319.05
+    ],
+    [
+     414.5,
+     335.6
+    ]
+   ],
+   "stroke": "blue",
+   "strokeWidth": 0.54
+  },
+  {
+   "kind": "path",
+   "d": "M412.28 333.81 L412.68 333.44 L414.5 335.4 L416.32 333.44 L416.72 333.81 L414.5 336.19 Z",
+   "fill": "blue"
+  },
+  {
+   "kind": "group",
+   "id": "country",
+   "role": "row",
+   "label": "Country implementation",
+   "children": [
+    {
+     "kind": "rect",
+     "x": 38.91,
+     "y": 217.9,
+     "w": 421.91,
+     "h": 107.76,
+     "fill": "country-panel"
+    },
+    {
+     "kind": "group",
+     "id": "l1-adaptation",
+     "role": "adaptation",
+     "label": "L1 Adaptation",
+     "children": [
+      {
+       "kind": "rect",
+       "x": 45.66,
+       "y": 239.77,
+       "w": 72.22,
+       "h": 82.56,
+       "fill": "country-card"
+      },
+      {
+       "kind": "path",
+       "d": "M79.55 224.09 L79.95 223.72 L81.77 225.68 L83.59 223.72 L83.99 224.09 L81.77 226.47 Z",
+       "fill": "blue"
+      },
+      {
+       "kind": "text",
+       "x": 77.63,
+       "y": 238.51,
+       "lines": [
+        "L1"
+       ],
+       "size": 8.68,
+       "weight": "bold",
+       "condensed": true,
+       "fill": "navy",
+       "widths": [
+        8.28
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 50.67,
+       "y": 250.92,
+       "lines": [
+        "Adaptation"
+       ],
+       "size": 7.59,
+       "weight": "bold",
+       "fill": "white",
+       "widths": [
+        42.62
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 50.67,
+       "y": 258.52,
+       "lines": [
+        "National policies,",
+        "guidelines, data,",
+        "and operational",
+        "procedures"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.59,
+       "fill": "white",
+       "widths": [
+        60.95,
+        58.78,
+        56.59,
+        40.44
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "group",
+     "id": "l2-adaptation",
+     "role": "adaptation",
+     "label": "L2 Adaptation",
+     "children": [
+      {
+       "kind": "rect",
+       "x": 128.84,
+       "y": 239.77,
+       "w": 72.22,
+       "h": 82.56,
+       "fill": "country-card"
+      },
+      {
+       "kind": "path",
+       "d": "M162.74 224.09 L163.13 223.72 L164.95 225.68 L166.78 223.72 L167.17 224.09 L164.95 226.47 Z",
+       "fill": "blue"
+      },
+      {
+       "kind": "text",
+       "x": 160.82,
+       "y": 238.51,
+       "lines": [
+        "L2"
+       ],
+       "size": 8.68,
+       "weight": "bold",
+       "condensed": true,
+       "fill": "navy",
+       "widths": [
+        8.28
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 133.85,
+       "y": 250.92,
+       "lines": [
+        "Adaptation"
+       ],
+       "size": 7.59,
+       "weight": "bold",
+       "fill": "white",
+       "widths": [
+        42.62
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 133.85,
+       "y": 258.52,
+       "lines": [
+        "Localized",
+        "requirements"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.59,
+       "fill": "white",
+       "widths": [
+        32.92,
+        48.31
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "group",
+     "id": "l3-adaptation",
+     "role": "adaptation",
+     "label": "L3 Adaptation",
+     "children": [
+      {
+       "kind": "rect",
+       "x": 212.03,
+       "y": 239.77,
+       "w": 72.22,
+       "h": 82.56,
+       "fill": "country-card"
+      },
+      {
+       "kind": "path",
+       "d": "M245.92 224.09 L246.31 223.72 L248.13 225.68 L249.96 223.72 L250.35 224.09 L248.13 226.47 Z",
+       "fill": "blue"
+      },
+      {
+       "kind": "text",
+       "x": 244.0,
+       "y": 238.51,
+       "lines": [
+        "L3"
+       ],
+       "size": 8.68,
+       "weight": "bold",
+       "condensed": true,
+       "fill": "navy",
+       "widths": [
+        8.28
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 217.03,
+       "y": 250.92,
+       "lines": [
+        "Adaptation"
+       ],
+       "size": 7.59,
+       "weight": "bold",
+       "fill": "white",
+       "widths": [
+        42.63
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 217.03,
+       "y": 258.52,
+       "lines": [
+        "Localized",
+        "machine-readable",
+        "code and",
+        "standards"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.59,
+       "fill": "white",
+       "widths": [
+        32.92,
+        64.45,
+        32.79,
+        35.56
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "group",
+     "id": "l4-adaptation",
+     "role": "adaptation",
+     "label": "L4 Adaptation",
+     "children": [
+      {
+       "kind": "rect",
+       "x": 295.21,
+       "y": 239.77,
+       "w": 72.22,
+       "h": 82.56,
+       "fill": "country-card"
+      },
+      {
+       "kind": "path",
+       "d": "M329.1 224.09 L329.5 223.72 L331.32 225.68 L333.14 223.72 L333.53 224.09 L331.32 226.47 Z",
+       "fill": "blue"
+      },
+      {
+       "kind": "text",
+       "x": 327.19,
+       "y": 238.51,
+       "lines": [
+        "L4"
+       ],
+       "size": 8.68,
+       "weight": "bold",
+       "condensed": true,
+       "fill": "navy",
+       "widths": [
+        8.28
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 300.21,
+       "y": 250.92,
+       "lines": [
+        "Adaptation"
+       ],
+       "size": 7.59,
+       "weight": "bold",
+       "fill": "white",
+       "widths": [
+        42.63
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 300.21,
+       "y": 258.52,
+       "lines": [
+        "Localized static",
+        "digital services",
+        "and applications",
+        "within a digital",
+        "health enterprise"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.59,
+       "fill": "white",
+       "widths": [
+        53.88,
+        52.64,
+        58.65,
+        52.45,
+        61.43
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "group",
+     "id": "l5-adaptation",
+     "role": "adaptation",
+     "label": "L5 Adaptation",
+     "children": [
+      {
+       "kind": "rect",
+       "x": 378.39,
+       "y": 239.77,
+       "w": 72.22,
+       "h": 82.56,
+       "fill": "country-card"
+      },
+      {
+       "kind": "path",
+       "d": "M412.28 224.09 L412.68 223.72 L414.5 225.68 L416.32 223.72 L416.72 224.09 L414.5 226.47 Z",
+       "fill": "blue"
+      },
+      {
+       "kind": "text",
+       "x": 410.37,
+       "y": 238.51,
+       "lines": [
+        "L5"
+       ],
+       "size": 8.68,
+       "weight": "bold",
+       "condensed": true,
+       "fill": "navy",
+       "widths": [
+        8.28
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 384.24,
+       "y": 251.77,
+       "lines": [
+        "Adaptation"
+       ],
+       "size": 7.59,
+       "weight": "bold",
+       "fill": "white",
+       "widths": [
+        42.62
+       ]
+      },
+      {
+       "kind": "text",
+       "x": 384.24,
+       "y": 259.36,
+       "lines": [
+        "Dynamic digital",
+        "applications and",
+        "services trained",
+        "and optimized for",
+        "prioritized local",
+        "outcomes"
+       ],
+       "size": 7.59,
+       "lineHeight": 7.59,
+       "fill": "white",
+       "widths": [
+        55.27,
+        58.65,
+        56.0,
+        63.46,
+        55.07,
+        35.29
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "line",
+   "points": [
+    [
+     81.77,
+     209.33
+    ],
+    [
+     81.77,
+     225.88
+    ]
+   ],
+   "stroke": "blue",
+   "strokeWidth": 0.54
+  },
+  {
+   "kind": "line",
+   "points": [
+    [
+     164.95,
+     209.33
+    ],
+    [
+     164.95,
+     225.88
+    ]
+   ],
+   "stroke": "blue",
+   "strokeWidth": 0.54
+  },
+  {
+   "kind": "line",
+   "points": [
+    [
+     248.14,
+     209.33
+    ],
+    [
+     248.14,
+     225.88
+    ]
+   ],
+   "stroke": "blue",
+   "strokeWidth": 0.54
+  },
+  {
+   "kind": "line",
+   "points": [
+    [
+     331.32,
+     209.33
+    ],
+    [
+     331.32,
+     225.88
+    ]
+   ],
+   "stroke": "blue",
+   "strokeWidth": 0.54
+  },
+  {
+   "kind": "line",
+   "points": [
+    [
+     414.5,
+     209.33
+    ],
+    [
+     414.5,
+     225.88
+    ]
+   ],
+   "stroke": "blue",
+   "strokeWidth": 0.54
+  },
+  {
+   "kind": "group",
+   "id": "localization",
+   "role": "band",
+   "label": "Localization",
+   "children": [
+    {
+     "kind": "rect",
+     "x": 38.91,
+     "y": 194.03,
+     "w": 421.91,
+     "h": 17.74,
+     "fill": "localization"
+    },
+    {
+     "kind": "text",
+     "x": 219.18,
+     "y": 207.28,
+     "lines": [
+      "Localization"
+     ],
+     "size": 10.85,
+     "weight": "light",
+     "fill": "white",
+     "widths": [
+      57.91
+     ]
+    }
+   ]
+  }
+ ]
+}

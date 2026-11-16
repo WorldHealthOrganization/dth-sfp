@@ -13,15 +13,32 @@
   ],
   "label": "fig:fig-04",
   "kind": "figure",
-  "title": "Fig. 4. Workflow for reporting substandard and falsified medical products (L1 source diagram, p. 30 / PDF p. 42)",
+  "title": "Fig. 4. Example workflow depicting the process of reporting substandard and falsified medical products (p. 30 / PDF p. 42)",
   "uses": [
     "papers/dth-sfp/blocks/prose-sec-024"
   ],
   "text": "f-fig-04.md",
   "meta": {
-    "source": "who-iris/library/9789240120747-eng/media/figures/vfig-p042.png",
+    "source": {
+      "library": "9789240120747-eng",
+      "file": "who-iris/library/9789240120747-eng/figures/vfig-p042.png",
+      "page": 42,
+      "section": "who-iris/library/9789240120747-eng/sections/sec-024-43-develop-business-processes-and-workflows.md",
+      "method": "bpmn",
+      "citation": "WHO. Digital transformation handbook for reporting substandard and falsified medical products. 2025. Fig. 4",
+      "issue": "litlfred/dth-sfp#11",
+      "generated": {
+        "data": "figure-data/fig-4-sf-reporting-workflow.json",
+        "bpmn": "figure-data/fig-4-sf-reporting-workflow.bpmn",
+        "schema": "figure-data/schemas/as-drawn-bpmn-figure.v1.schema.json",
+        "generator": "scripts/figures/as-drawn.ts",
+        "tool": "figures:svg",
+        "output": "fig-4-sf-reporting-workflow.svg",
+        "transcribedFrom": "who-iris/uploads/9789240120747-eng/9789240120747-eng.pdf, page 42, vector layer, region [97.22, 91.3, 564.61, 441.62]"
+      }
+    },
     "pdfPage": 42,
-    "figureFile": "media/vfig-p042.png",
+    "figureFile": "media/fig-4-sf-reporting-workflow.svg",
     "glossary": [
       {
         "iri": "https://litlfred.github.io/dth-sfp/v0/ns#glossary/dth-sfp/sf-report",
