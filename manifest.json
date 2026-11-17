@@ -1,0 +1,18 @@
+{
+  "$schema": "state-manifest/v1",
+  "status": "active",
+  "authoritative": true,
+  "subgraph": "beans",
+  "keyedBy": "tip",
+  "source": {
+    "ref": "main",
+    "sha": "ad7a362b131b62f2e097bee10f60dba1ec63dee0"
+  },
+  "seededAt": "2026-11-17T06:59:41Z",
+  "graphs": [
+    {
+      "path": "beans"
+    }
+  ],
+  "note": "The beans subgraph of this instance, seeded empty on the owner's decision (2026-11-17, dth-sfp#13 card Q2 = A): dth-sfp.json had declared it on this branch, which did not exist."
+}
