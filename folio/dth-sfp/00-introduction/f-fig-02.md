@@ -1,0 +1,3 @@
+![Fig. 2. WHO’s SMART Guidelines approach (p. 5 / PDF p. 17)](media/fig-2-smart-guidelines-approach.svg)
+
+*Source: WHO, Digital transformation handbook for reporting substandard and falsified medical products, 2025, Fig. 2, adapted from WHO SMART Guidelines (Mehl et al., 2021) (L1 section `who-iris/library/9789240120747-eng/sections/sec-006-how-to-use-this-handbook.md`; PDF crop `who-iris/library/9789240120747-eng/figures/vfig-p017.png`, PDF page 17). Redrawn as SVG by `scripts/figures/as-drawn.ts` from `figure-data/fig-2-smart-guidelines-approach.json`, transcribed from the PDF's vector layer with the printed layout, colours and wording. Mapped to `dpi-h-ra` ArchiMate view `Interoperability Layer` (`id-8c5dd12b8d4e425184f6003d0513d569`).*
