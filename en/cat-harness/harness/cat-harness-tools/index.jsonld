@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@id": "https://worldhealthorganization.github.io/dth-sfp/en/cat-harness/harness/cat-harness-tools/",
+  "url": "https://worldhealthorganization.github.io/dth-sfp/en/cat-harness/harness/cat-harness-tools/",
+  "@type": "WebPage",
+  "name": "C@T Harness Tools on Digital Transformation Handbook for Reporting Substandard and Falsified Medical Products",
+  "about": {
+    "@type": "SoftwareSourceCode",
+    "identifier": "cat-harness-tools",
+    "name": "C@T Harness Tools",
+    "description": "What implements the harness's Tool definitions: the MCP servers, their tool registrars and routes. Definitions stay in cat-harness; this layer runs them.",
+    "version": "0.1.0",
+    "codeRepository": "https://github.com/litlfred/cat-harness-tools",
+    "isBasedOn": [
+      {
+        "@id": "https://litlfred.github.io/cat-harness/"
+      },
+      {
+        "identifier": "bootstrap-tools"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "name": "pinnedCommit",
+      "value": "4a373af9e6541ae0d974dd676a6b1a2df100a2a8"
+    }
+  },
+  "isPartOf": {
+    "@id": "https://worldhealthorganization.github.io/dth-sfp/",
+    "name": "Digital Transformation Handbook for Reporting Substandard and Falsified Medical Products"
+  },
+  "significantLink": [
+    "https://litlfred.github.io/folio-assistant/cat-harness-tools/",
+    "https://github.com/litlfred/cat-harness-tools/tree/4a373af9e6541ae0d974dd676a6b1a2df100a2a8",
+    "https://github.com/litlfred/cat-harness-tools/blob/4a373af9e6541ae0d974dd676a6b1a2df100a2a8/README.md",
+    "https://github.com/litlfred/cat-harness-tools/blob/4a373af9e6541ae0d974dd676a6b1a2df100a2a8/AGENTS.md"
+  ]
+}
